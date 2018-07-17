@@ -1,5 +1,5 @@
 
-.. glossary::
+.. code-block:: php
    environment
       A structure where information about all documents under the root is
       saved, and used for cross-referencing.  The environment is pickled
