@@ -1,6 +1,7 @@
 
 .. code-block:: php
-:linenos:
+   :linenos:
+
   if ($foo = 1) {
     print('boah');
   }
