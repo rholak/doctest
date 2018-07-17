@@ -1,5 +1,11 @@
-.. code-block:: python
-   :caption: this.py
-   :name: this-py
+.. glossary::
 
-   print 'Explicit is better than implicit.'
+   environment
+      A structure where information about all documents under the root is
+      saved, and used for cross-referencing.  The environment is pickled
+      after the parsing stage, so that successive runs only need to read
+      and parse new and changed documents.
+
+   source directory
+      The directory which, including its subdirectories, contains all
+      source files for one Sphinx project.
