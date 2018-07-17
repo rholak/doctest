@@ -1,6 +1,6 @@
 
 .. code-block:: php
-  :linenos:
+   :linenos:
 
   if ($var == 1) {
     print 'foo';
