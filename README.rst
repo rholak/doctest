@@ -1,9 +1,9 @@
 
-.. code-block:: php
-   :linenos:
+.. code-block:: python
+   :emphasize-lines: 3,5
 
-   if ($var == 1) {
-     print 'foo';
-   }
-
-No more code block
+   def some_function():
+       interesting = False
+       print 'This line is highlighted.'
+       print 'This one is not...'
+       print '...but this one is.'
